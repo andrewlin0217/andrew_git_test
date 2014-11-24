@@ -1,0 +1,174 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.blackloud.netti"
+    android:versionCode="1"
+    android:versionName="0.10.2" >
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:name="com.blackloud.netti.NettiApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.blackloud.netti.activity.WelcomeActivity" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>       
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.HomeActivity" 
+            android:screenOrientation="portrait">     
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.AddNewModeDeviceActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.SelectTargetDeviceStep1" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.SelectTargetDeviceStep2" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.SelectTargetDeviceStep3" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.AppTourGuideActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.WebViewActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.SignInActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.ForgetActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.CreateNewAccountActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.RegisterSuccessActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.RecoveryActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.DIDCompletely" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.DidFailedActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.AddNettiActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.AddNettiGuideActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.SetupDeviceConnectionActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.CopyConfigUserGuidActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.SearchingNettiActivity" 
+            android:screenOrientation="portrait">
+		</activity>
+        <activity android:name="com.blackloud.netti.activity.SearchNettiFailedActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+
+        
+        <activity android:name="com.blackloud.netti.activity.NewConfigActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.SetupWifiActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.DIDCompletelyActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.SetupDeviceConnectStep1Activity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.SetupDeviceConnectStep2Activity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.SetupDeviceConnectStep3Activity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.SetupDeviceConnectStep4Activity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.ConnectionFailedWifiActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+		<activity android:name="com.blackloud.netti.activity.BasicInfoActivity" 
+		    android:screenOrientation="portrait">
+        </activity>
+		<activity android:name="com.blackloud.netti.activity.AdvancedInfoActivity" 
+		    android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.ConnectedActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.EditActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.RemotePasswordActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.ResetPasswordActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.BlackListDeviceActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.SignalActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.GuestNetworkActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+		<activity android:name="com.blackloud.netti.activity.TimerActivityEnd" 
+		    android:screenOrientation="portrait">
+        </activity>
+		<activity android:name="com.blackloud.netti.activity.TimerActivityStart" 
+		    android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.FindDevicesActivity" 
+            android:screenOrientation="portrait">
+        </activity>        
+        <activity android:name="com.blackloud.netti.activity.ApModeSettingActivity" 
+		    android:screenOrientation="portrait">
+        </activity>
+		<activity android:name="com.blackloud.netti.activity.ApModeSettingSuccessActivity" 
+		    android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.ApModeSettingFailActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.SelectNettiForApModeActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+	<activity android:name="com.blackloud.netti.activity.AppModeUpgradingScreenActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.blackloud.netti.activity.TimeZoneActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+    <uses-feature android:name="android.hardware.wifi" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+ 	
+
+</manifest>
